@@ -160,6 +160,51 @@ li {
 
 }
 
-div {
+.future {
     width: 200px;
+}
+
+.explain {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -90px;
+    padding-left: 100px;
+}
+
+.move {
+    position: relative;
+    left: 30px;
+    padding-left: 90px;
+}
+
+.button {
+    border: #505050 solid 2px;
+    background-color: transparent;
+    border-radius: 16px;
+    font-family: adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 500;
+}
+
+.try {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    top: -50px;
+}
+
+.bottom {
+    width: 1200;
+    height: 400px;
+    background: black;
 }
